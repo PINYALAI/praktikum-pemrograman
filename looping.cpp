@@ -14,3 +14,12 @@ int main(){
 cout<<endl;
 //untuk mendapatkan urutan acak yang berbeda
 srand(time(0));
+
+//perulangan dengan while
+cout<<"Perulangan while"<<endl;
+x=0; + rand()%10;
+
+while(x<5){
+    cout<<"bilangan acak ="<<x <<endl;
+    x= rand()%10;
+}
