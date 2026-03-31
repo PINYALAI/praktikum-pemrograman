@@ -11,3 +11,6 @@ int main(){
     for(int i=0; i<4; i++){
         cout<<"TEKNOLOGI INFORMASI UMY"<<endl;    
 }
+cout<<endl;
+//untuk mendapatkan urutan acak yang berbeda
+srand(time(0));
