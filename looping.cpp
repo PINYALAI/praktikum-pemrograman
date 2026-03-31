@@ -23,3 +23,18 @@ while(x<5){
     cout<<"bilangan acak ="<<x <<endl;
     x= rand()%10;
 }
+
+cout<<"bilangan acak while yang terakhir ="<<x <<endl;
+cout<<endl;
+
+//perulangan dengan do...while
+cout<<"Perulangan do...while"<<endl;
+x= 1 + rand()%10;
+do{
+    cout<<"bilangan acak ="<<x <<endl;
+    x= rand()%10;
+}while(x<=5);
+
+cout<<"bilangan acak do-while yang terakhir ="<<x <<endl;
+cout<<endl;
+}
